@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+
+h1 {
+    background-color: rgb(198, 198, 248);
+    stroke: aliceblue;
+    text-align: center;
+    font-style: italic;
+    padding: 2em;
+}
+
+img {
+    height: 15vw;
+}
+
+img:hover {
+    opacity: 70%;
+}
+
+section.topnav {
+    width: 70vw;
+    display:block;
+    position:relative;
+    margin:auto;
+    text-align: center;
+}
+
+section.fondo{
+
+    background-image: url(https://www.teacheracademy.eu/wp-content/uploads/2021/09/teacher-training-valencia.jpg);
+    padding: 18px;
+    color: blue;
+    left: 0px;
+    margin-right: 30%;
+}
+
+div.espacio {
+    background-color: blue;
+    padding: 10px;
+}
+div.azulado {
+    background-color: rgb(153, 153, 228);
+    padding: 0px;
+    text-align: center;
+}
+
+
+a.enlaces {
+    padding-top: 5px;
+    padding-bottom: 5px;
+	display: inline-block;
+	background-color: white;
+    color: black;
+    font-style:normal;
+	
+}
+a.enlaces:hover{
+	background-color: blue;
+    color:white;
+    font-weight: 1000;
+}
